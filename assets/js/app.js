@@ -201,7 +201,7 @@
       '<div class="qv"><div class="qv__media"><img src="' + img(id) + '" alt="' + esc(p.name) + '" /></div>' +
       '<div class="qv__copy"><p class="eyebrow">' + esc(p.brand) + " · " + esc(catLabel[p.cat]) + '</p>' +
       '<h2>' + esc(p.name) + '</h2><p>' + esc(p.desc) + '</p>' +
-      '<ul class="qv__perks"><li>✓ In stock in Adenta</li><li>✓ Imported from the USA</li><li>✓ No pre-order wait</li></ul>' +
+      '<ul class="qv__perks"><li>✓ In stock in Adenta</li><li>✓ Imported from the USA</li><li>✓ Pay on delivery or pickup</li></ul>' +
       '<div class="hero__cta"><button class="btn btn--primary" data-add="' + id + '">' + (inList ? "✓ In your inquiry list" : "Add to inquiry list") + '</button>' +
       '<button class="btn btn--ghost" data-askone="' + id + '">Ask about this now</button></div>' +
       (related.length ? '<p class="qv__rel-title">You might also like</p><div class="qv__rel">' + related.map(function (r) {
